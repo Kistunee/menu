@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://kit.fontawesome.com/17c0e275f4.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Saze Restaurant & Bar</title>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+ <div class="header-image">
+
+    <img src="menuu.png"
+       alt="The Saze Restaurant & Bar"
+       style="width:100%; border-radius:10px;">
+  
+ </div>
+
+<div class="header">
+<div><span class="fa-regular fa-clock"></span> Open 7 AM – 11 PM</div> <div><i class="fa-solid fa-location-dot"></i>Daran,Nepal</div> <br><br>
+</div>
+
+ <div class="info">
+  <div>293+<br> Items</div>
+  <div>4.9★<br> Rating</div>
+  <div>15K+<br> Customers</div>
+</div>
+
+
+<div class="search">
+  <input type="text" id="search" placeholder="Search food" onkeyup="searchFood()">
+</div>
+
+
+<div class="categories">
+  <button class="cat-btn active" onclick="filter('all')">All</button>
+  <button class="cat-btn" onclick="filter('starters')">Starters</button>
+  <button class="cat-btn" onclick="filter('nonveg')">Non-Veg</button>
+  <button class="cat-btn" onclick="filter('momo')">Momo</button>
+  <button class="cat-btn" onclick="filter('rice')">Rice</button>
+  <button class="cat-btn" onclick="filter('classic-coffee')"> Classic Coffee</button>
+  <button class="cat-btn" onclick="filter('frappe')">Frappe</button>
+  <button class="cat-btn" onclick="filter('refreshers')">Refreshers</button>
+  <button class="cat-btn" onclick="filter('burgers')">Burgers</button>
+  <button class="cat-btn" onclick="filter('desserts')">Desserts</button>
+  <button class="cat-btn" onclick="filter('smoke')">SMOKE</button>
+</div>
+
+<div class="menu" id="menu"></div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
