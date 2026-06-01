@@ -1,0 +1,142 @@
+
+body
+  {
+    font-family: Arial;
+    margin: 0;
+    background: linear-gradient(135deg, #0f0656, #0f02362c);
+
+  }
+
+  .header 
+  {
+    background: linear-gradient(135deg,  #13095f1a, #0301172c);
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .info 
+  {
+    display: flex;
+    justify-content: space-around;
+    color: darkgoldenrod;
+    background: rgb(15, 2, 70);
+    margin: -15px 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  
+  .search 
+  {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .search input 
+  {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+ 
+  .categories 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px;
+  }
+
+  .cat-btn 
+  {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(17, 54, 127);
+  }
+
+  .cat-btn.active 
+  {
+    background: #3a3634;
+    color: rgb(205, 193, 21);
+  }
+
+  
+  .menu 
+  {
+    padding: 15px;
+  }
+
+  .item 
+  {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(135, 123, 203);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .price 
+  {
+    color: #ff6b35;
+    font-weight: bold;
+  }
+
+  button 
+  {
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ html { scroll-behavior: smooth; }
+
+.header-image 
+ {
+
+    position: relative;
+    width: 100%;
+ }
+
+ .header-image img 
+ {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+ }
+
+
+  .title-text
+   {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+   
+    background:blue;
+    padding: 8px 25px;
+    border-radius: 10px;
+   }
+
+.title-text h1 {
+    margin: 0;
+    font-size: 28px;
+            }
+
+.title-text p {
+    margin: 5px 0 0;
+    font-size: 16px; 
+    color: #ddd;
+  }
+  
